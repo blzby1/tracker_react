@@ -1,15 +1,11 @@
-import { useState } from 'react'
 import './App.css'
-import RawJSON from './RawJSON.tsx'
+import Calendar from './Calendar.tsx'
 
 function App() {
-
-  const [response, setResponse] = useState('Loading...');
-  
   return (
     <>
-      <h1>test page</h1>
-      <RawJSON response={response} setResponse={setResponse} />
+      <h1>calendar thing</h1>
+      <Calendar />
     </>
   )
 }

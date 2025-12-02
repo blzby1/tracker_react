@@ -1,5 +1,8 @@
-h1 {
-    background-color: turquoise;
+.busy {
+    background-color: red;
+}
+.free {
+    background-color: green;
 }
 #data {
     white-space: pre;
