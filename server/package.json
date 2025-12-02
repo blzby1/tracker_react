@@ -1,0 +1,25 @@
+{
+  "name": "school_tracker",
+  "version": "1.0.0",
+  "description": "track student logins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"hi\"",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blzby1/school_tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blzby1/school_tracker/issues"
+  },
+  "homepage": "https://github.com/blzby1/school_tracker#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0"
+  }
+}
