@@ -16,12 +16,9 @@ function RawJSON({response, setResponse}) {
 
     return (
         <>
-            <script>
-                console.log({response});
-            </script>
             <p>{response}</p>
         </>
     )
 }
 
-export default RawJSON
+export default RawJSON;
